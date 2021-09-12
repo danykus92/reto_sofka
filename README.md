@@ -6,6 +6,7 @@
 2. Contar como minmo con e JDK 1.8 en la maquina para el correcto funcionamiento.
 3. El juego esta diseñano de tal manera que antes de empezar se debe ejar el registro de un usuario para continuar
 4. Se implimento un alert  tipo showMessage, para los eventos del juego: Ganar,perder o Retirarse del juego por lo que se debe verificar esta ventana emergente en pantalla con los resultados y automaticamnent se temina la ejecucion del programa. 
+5. Los datos del jugador como histórico del juego se registran en la carpeta "log" con el nombre "Resultados del Juego.txt" separados por un delimirador "<<<<<<<<<<<<<<" y contiene: Jugador, puntuacion,fecha del juego y el estado del juego GANAR PERDER O RETIRARSE
 
 <--------------------------------------------------------------------->
 
