@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import javax.swing.JOptionPane;
 import listaDinamica.MonstrarLasPreguntas;
+import listaDinamica.crearArchivo;
 
 public class Juego {
 
@@ -75,7 +76,9 @@ public class Juego {
               
                j = (int)(Math.random()* (rango - (rango-4)) + (rango-4));
                 System.out.println("\u001B[31m" + "Recuerda que puedes salir del juego ingresando 0 y te llevas los punto acomulados");
-                System.out.println("EL NIVEL ACTUAL ES: "+ nivel);
+                System.out.println("EL NIVEL ACTUAL ES: "+ nivel); 
+                crearArchivo archivo = new crearArchivo();
+                
                 
                 //Cojemos una pregunta
                 p = preguntas.get(j);
@@ -98,17 +101,20 @@ public class Juego {
                     if (nivel > 5) {
                         
                         JOptionPane.showMessageDialog(null, "Haz ganado el juego tus puntos totales son: "+ puntosTotales);
+                        archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
                                       
                     break;
                     }
                    
                } if(respuesta == 0){ 
-                     JOptionPane.showMessageDialog(null, "Te haz retirado del juego, tus puntos totales son: "+ puntosTotales);       
+                     JOptionPane.showMessageDialog(null, "Te haz retirado del juego, tus puntos totales son: "+ puntosTotales);    
+                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
                     break;
                    
                 }if (!p.comprobarRespuesta(respuesta)) {
                        puntosTotales = 0;
                      JOptionPane.showMessageDialog(null, "No has acertado :( " +  "Haz PERDIDO el juego y  tus puntos totales son: " + puntosTotales);
+                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
                     break;
                 }
             

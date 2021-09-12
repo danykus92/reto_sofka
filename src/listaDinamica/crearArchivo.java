@@ -7,11 +7,32 @@ import java.io.File;
 import java.io.FileWriter;
 
 public class crearArchivo {
+    private String ruta;  
+    private int puntuacion;
+    private String jugador;
     
-public static void main(String ars[]){
+    public int getPuntucion(){
+    return puntuacion;
+     }
+    
+    public String getRuta(){
+    return ruta;
+    }
+    
+    public String getJugador(){
+    return jugador;
+     }
+    
+    public crearArchivo(){
+       
+       ruta="";
+       puntuacion=0;
+       jugador="";
+   }
+    
+public  void escribirLog(String ruta, int puntuacion, String jugador){
         try {
-            String ruta = "filename.txt";
-            String contenido = "Contenido de ejemplo";
+            
             File file = new File(ruta);
             // Si el archivo no existe es creado
             if (!file.exists()) {
@@ -19,10 +40,13 @@ public static void main(String ars[]){
             }
             FileWriter fw = new FileWriter(file);
             BufferedWriter bw = new BufferedWriter(fw);
-            bw.write(contenido);
+            bw.write("Para el Jugador:  "+jugador+"  ,la  puntuacon fue:  "+puntuacion);
+            bw.newLine();
+            bw.flush();
             bw.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+   
 }
