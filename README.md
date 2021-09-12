@@ -33,7 +33,17 @@ en total la bolsa de premos sera de 1500 para el campeon. Siendo este el maximo 
 
 ---------------------------------------------------------------------<>
 
-Anexo la preguntas Y respuestas ( tan bien disponbles en un archivo PDF llamado " Preguntas y Respuestas"
+Anexo las preguntas y respuestas ( tan bien disponbles en un archivo PDF llamado " Preguntas y Respuestas")
+
+NOTA: el juego consta de 5 Niveles cada uno con 5 preguntas  definidas asi:
+
+Nivel 1 corresponden las preguntas 1 a la 5
+Nivel 2 corresponden las preguntas 6 a la 10
+Nivel 3 corresponden las preguntas 11 a la 15
+Nivel 4 corresponden las preguntas 16 a la 20
+Nivel 5 corresponden las preguntas 21 a la 25
+
+---------------------------------------------------------------------<>
 
 Preguntas
 1. ¿Cual es la capital de España?
@@ -62,6 +72,7 @@ Preguntas
 24. ¿En qué año se fabricó el primer vehículo Toyota?
 25. ¿Quién inventó la lata para conservar alimentos en 1810
 
+---------------------------------------------------------------------<>
 
 Respuestas
 1. Madrid
@@ -89,13 +100,3 @@ Respuestas
 23. 24 horas
 24. 1947
 25. Peter Durand
-
-
-
-
-
-
-
-
-
- 
