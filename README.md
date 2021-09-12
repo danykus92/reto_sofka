@@ -1,51 +1,58 @@
 # reto_sofka
 
-Instrucciones para el uso adeyado de la aplicacion
+## Instrucciones para el uso adecuado de la aplicacion ##
 
-1- no modificar, eliminar o mover de ruta el .TXT  llamadado "niveles" ya que este contiene el banco de preguntas de juego y es indispensable para su funcionamiento
-2- contar como minmo con e JDK 1.8 en la maquina para el correcto funcionamiento.
-3- el juego esta diseñano de tal manera que antes de empezar se debe ejar el registro de un usuario para continuar
-4- se implimento un alert  tipo showMessage, para los eventos del juego: Ganar,perder o Retirarse del juego por lo que se debe verificar esta ventana emergente en pantalla con los resultados y automaticamnent se temina la ejecucion del programa. 
+1. no modificar, eliminar o mover de ruta el .TXT  llamadado "niveles" ya que este contiene el banco de preguntas de juego y es indispensable para su funcionamiento
+2. contar como minmo con e JDK 1.8 en la maquina para el correcto funcionamiento.
+3. el juego esta diseñano de tal manera que antes de empezar se debe ejar el registro de un usuario para continuar
+4. se implimento un alert  tipo showMessage, para los eventos del juego: Ganar,perder o Retirarse del juego por lo que se debe verificar esta ventana emergente en pantalla con los resultados y automaticamnent se temina la ejecucion del programa. 
 
----------------------------------------------------------------------<>
+<--------------------------------------------------------------------->
 
-Politicas del juego
+### ***Politicas del juego*** ###
 
-*El juegos consta de 5 categorias con un banco de 25 pregunatas en donde en cada categoria se realizara una pregunta a el azar para avanzar entre categorias siendo la ultima categoria el nivel 5 y por ende el fin del juego
-* si el jugador erra una pregunta automaticamente perdera los puntos acumulados y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante)
-* si el jugador opta por retirase ( esta opcion le regista en la consola) quedaraa con su puntos acumulados y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante)
-* para ganar el jugador debera responder correctamente las 5 categorias ( Niveles) correctamente y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante)
-* para escoger las respuestas a la preguntas las opciones validas solo seran: ( 1,2,3,4)
+* El juegos consta de 5 categorias con un banco de 25 pregunatas en donde en cada categoria se realizara una pregunta a el azar para avanzar entre categorias siendo la ultima categoria el nivel 5 y por ende el fin del juego.
+
+* si el jugador erra una pregunta automaticamente perdera los puntos acumulados y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante).
+
+* si el jugador opta por retirase ( esta opcion le regista en la consola) quedaraa con su puntos acumulados y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante).
+
+* para ganar el jugador debera responder correctamente las 5 categorias ( Niveles) correctamente y se finalizara su sesion y se le notificara mediante un showMessage ( como ventana emergante).
+
+* para escoger las respuestas a la preguntas las opciones validas solo seran: ( 1,2,3,4).
+
 * para retirse del juego con los puntos acumulado la opcion valida seria respondeer con el numero  0
 
 
----------------------------------------------------------------------<>
-Puntos o premios
+<--------------------------------------------------------------------->
 
-Responder correctamente el nivel 1 te dara como recompensa 100 puntos
-Responder correctamente el nivel 2 te dara como recompensa 200 puntos
-Responder correctamente el nivel 3 te dara como recompensa 300 puntos
-Responder correctamente el nivel 4 te dara como recompensa 400 puntos
-Responder correctamente el nivel 5 te dara como recompensa 500 puntos
+#### **Puntos o premios** ####
+
+* Responder correctamente el nivel 1 te dara como recompensa 100 puntos
+* Responder correctamente el nivel 2 te dara como recompensa 200 puntos
+* Responder correctamente el nivel 3 te dara como recompensa 300 puntos
+* Responder correctamente el nivel 4 te dara como recompensa 400 puntos
+* Responder correctamente el nivel 5 te dara como recompensa 500 puntos
 
 
-en total la bolsa de premos sera de 1500 para el campeon. Siendo este el maximo puntaje a obtener por usuario
+### ***En total la bolsa de premos sera de 1500 para el campeon. Siendo este el maximo puntaje a obtener por usuario*** ###
 
----------------------------------------------------------------------<>
+<--------------------------------------------------------------------->
 
-Anexo las preguntas y respuestas ( tan bien disponbles en un archivo PDF llamado " Preguntas y Respuestas")
+### ***NOTA: el juego consta de 5 Niveles cada uno con 5 preguntas  definidas asi:*** ###
 
-NOTA: el juego consta de 5 Niveles cada uno con 5 preguntas  definidas asi:
+* Nivel 1 corresponden las preguntas 1 a la 5
+* Nivel 2 corresponden las preguntas 6 a la 10
+* Nivel 3 corresponden las preguntas 11 a la 15
+* Nivel 4 corresponden las preguntas 16 a la 20
+* Nivel 5 corresponden las preguntas 21 a la 25
 
-Nivel 1 corresponden las preguntas 1 a la 5
-Nivel 2 corresponden las preguntas 6 a la 10
-Nivel 3 corresponden las preguntas 11 a la 15
-Nivel 4 corresponden las preguntas 16 a la 20
-Nivel 5 corresponden las preguntas 21 a la 25
+<--------------------------------------------------------------------->
 
----------------------------------------------------------------------<>
+### **Anexo las preguntas y respuestas ( tan bien disponbles en un archivo PDF llamado " Preguntas y Respuestas")** ###
 
-Preguntas
+#### **Preguntas** ####
+
 1. ¿Cual es la capital de España?
 2. ¿Cual de estos animales es mamifero?
 3. ¿El rubius tiene cuantos millones de suscriptores?
@@ -72,9 +79,10 @@ Preguntas
 24. ¿En qué año se fabricó el primer vehículo Toyota?
 25. ¿Quién inventó la lata para conservar alimentos en 1810
 
----------------------------------------------------------------------<>
+<--------------------------------------------------------------------->
 
-Respuestas
+#### **Respuestas** ####
+
 1. Madrid
 2. Ballena
 3. 20 millones
