@@ -1,0 +1,175 @@
+;P;¿Cual es la capital de España?
+Paris
+Madrid
+Lisboa
+Londres
+;R;2
+100
+;P;¿Cual de estos animales es mamifero?
+Ballena
+Pulpo
+Anguila
+calamar
+;R;1
+100
+;P;¿El rubius tiene cuantos millones de suscriptores?
+20 millones
+10 millones
+30 millones
+50 millones
+;R;1
+100
+;P;¿de donde es luisito comunica?
+Colombia
+Peru
+Mexico
+Honduras
+;R;3
+100
+;P;¿Quien es el maximo idolo de colombia?
+James
+Falcao
+El Pibe
+Asprilla
+;R;3
+100
+;P;¿En qué año se hundió el Titanic en el Océano Atlántico el 15 de abril, en su viaje inaugural desde Southampton?
+1912
+1945
+1956
+1937
+;R;1
+200
+;P;¿Cuál es el título de la primera película de Carry On realizada y lanzada en 1958?
+Continuar teniente
+Continuar cabo
+Continuar sargento
+Continuar generar
+;R;3
+200
+;P;¿Cuál es el nombre de la compañía de tecnología más grande de Corea del Sur?
+Motorola
+Samsung
+Xiaomi
+Nokia
+;R;2
+200
+;P;¿Qué cantante lideró el grupo pop de los años 1970 Showaddywaddy?
+Michael Owen
+jame Bautista
+Oliver Khan
+Dave Bartram
+;R;4
+200
+;P;¿Qué famoso chef de televisión comenzó a cocinar a la edad de ocho años en el pub de sus padres, 'The Cricketers', en Clavering, Essex?
+Marlon Brado
+Jorge Raus
+Jamie Oliver
+Vardy James
+;R;3
+200
+;P;¿Qué jugador de dardos holandés ganó el Campeonato Mundial BDO 2012 en el Lakeside Country Club, Frimley Green el 15 de enero?
+Christian Kist
+Machael Jordan
+Scooty Pipen
+Tony Kroos
+;R;1
+300
+;P;¿Qué metal fue descubierto por Hans Christian Oersted en 1825?
+Oro
+Aluminio
+Cobre
+Bronce
+;R;2
+300
+;P;¿Cuál es la capital de Portugal?
+Praga
+Zeul
+Lisboa
+Madeira
+;R;3
+300
+;P;¿Cuántas respiraciones toma el cuerpo humano diariamente?
+40,000 diariamente
+30,000 diariamente
+10,000 diariamente
+20,000 diariamente
+;R;4
+300
+;P;¿Quién fue primer ministro de Gran Bretaña de 1841 a 1846?
+Robert Peel
+Aurich Reel
+juanis Jeel
+Sthepen Seel
+;R;1
+300
+;P;¿Cuál es el símbolo químico de la plata?
+Pt
+Br
+H
+Ag
+;R;4
+400
+;P;¿Quién inventó Cat's Eyes en 1934 para mejorar la seguridad vial?
+Percy Jackson
+Lebron James
+Percy Shaw
+Luka Modric
+;R;3
+400
+;P;¿Cuál es el pájaro más pequeño del mundo?
+Pato Ganso
+Colibrí Abeja
+Condor de los Andes
+Pato donald
+;R;2
+400
+;P;¿Quién interpretó a 'Bodie' y 'Doyle' en The Professionals?
+Lewis Collins y Martin Shaw
+Leonardo Dicaprio y Mark Strong
+Edward Norton y Husky Ramirez
+Lukas Pratto y Lewis Hanilton
+;R;1
+400
+;P;¿Cuál es el nombre completo de la muñeca, Barbie?
+Lisa Corazon de Leon
+Barbara Millicent Roberts
+Margaret Colinns
+Sofia Turner
+;R;2
+400
+;P;¿Cuál fue el récord Paul Hunn, que se registró en 118.1 decibelios?
+El Pedo mas fetido
+El eructo más fuerte
+El aliento mas apestoso
+El escupitajo mas espeso
+;R;2
+500
+;P;¿Qué decía la tarjeta de presentación de Al Capone de que era su ocupación?
+Un asesor de Call Center
+Un vendedor de auto
+Un vendedor de muebles usados
+Un corredor de bolsa
+;R;3
+500
+;P;¿Cuál es la vida útil de una libélula?
+24 horas
+42 horas
+18 horas
+4 horas
+;R;1
+500
+;P;¿En qué año se fabricó el primer vehiculo Toyota ?
+1946
+1945
+1949
+1947
+;R;4
+500
+;P;¿Quién inventó la lata para conservar alimentos en 1810?
+Peter Durand
+Opra Wilfrey
+Railk Croc
+Selene Willians
+;R;1
+500

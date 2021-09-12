@@ -1,5 +1,3 @@
-# reto_sofka
-
 Instrucciones para el uso adeyado de la aplicacion
 
 1- no modificar, eliminar o mover de ruta el .TXT  llamadado "niveles" ya que este contiene el banco de preguntas de juego y es indispensable para su funcionamiento
@@ -98,4 +96,7 @@ Respuestas
 
 
 
- 
+
+
+
+
