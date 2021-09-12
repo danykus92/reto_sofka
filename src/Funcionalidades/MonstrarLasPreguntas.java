@@ -1,4 +1,4 @@
-package listaDinamica;
+package Funcionalidades;
 
 
 public class MonstrarLasPreguntas<T> {

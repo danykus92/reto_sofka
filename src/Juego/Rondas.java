@@ -1,5 +1,5 @@
 
-package reto_sofka;
+package Juego;
 
 import java.io.IOException;
 

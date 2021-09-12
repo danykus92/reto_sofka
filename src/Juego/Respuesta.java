@@ -1,4 +1,4 @@
-package reto_sofka;
+package Juego;
 
 
 public class Respuesta {

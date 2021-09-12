@@ -1,6 +1,6 @@
-package reto_sofka;
+package Juego;
 
-import listaDinamica.MonstrarLasPreguntas;
+import Utilis.MonstrarLasPreguntas;
 
 public class Pregunta {
     

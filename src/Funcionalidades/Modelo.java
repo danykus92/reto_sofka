@@ -1,11 +1,11 @@
-package listaDinamica;
+package Funcionalidades;
 
 
 public class Modelo<T> {
 
     //Atributos
     private T elemento;
-    private Modelo<T> siguiente; //Apunta al siguiente nodo de la lista
+    private Modelo<T> siguiente; //Apunta al siguiente nodo
 
     //Contructor
     public Modelo(T elemento, Modelo<T> siguiente) {

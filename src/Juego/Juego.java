@@ -1,13 +1,15 @@
-package reto_sofka;
+package Juego;
 
 import Leer.Jugador;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.swing.JOptionPane;
-import listaDinamica.MonstrarLasPreguntas;
-import listaDinamica.crearArchivo;
+import Utilis.MonstrarLasPreguntas;
+import Utilis.CrearArchivo;
 
 public class Juego {
 
@@ -73,11 +75,12 @@ public class Juego {
             usuario = teclado.pedirString();
             //recorremos las los niveles
             while (i < 5) { 
-              
+               SimpleDateFormat  fecha = new SimpleDateFormat("HH:mm:ss yyyy/MM/dd");
+               String fechaJuego = fecha.format(new Date());
                j = (int)(Math.random()* (rango - (rango-4)) + (rango-4));
                 System.out.println("\u001B[31m" + "Recuerda que puedes salir del juego ingresando 0 y te llevas los punto acomulados");
                 System.out.println("EL NIVEL ACTUAL ES: "+ nivel); 
-                crearArchivo archivo = new crearArchivo();
+                CrearArchivo archivo = new CrearArchivo();
                 
                 
                 //Cojemos una pregunta
@@ -96,25 +99,24 @@ public class Juego {
                     puntosTotales += p.getPuntos();
                     System.out.println("Has acertado y tus puntos acumulados son: "+puntosTotales);
                     nivel = nivel +1;
-               
-                    
+                   
                     if (nivel > 5) {
                         
                         JOptionPane.showMessageDialog(null, "Haz ganado el juego tus puntos totales son: "+ puntosTotales);
-                        archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
+                        archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario, fechaJuego, "GANO"); 
                                       
                     break;
                     }
                    
                } if(respuesta == 0){ 
                      JOptionPane.showMessageDialog(null, "Te haz retirado del juego, tus puntos totales son: "+ puntosTotales);    
-                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
+                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario, fechaJuego,"SE RETIRO"); 
                     break;
                    
                 }if (!p.comprobarRespuesta(respuesta)) {
                        puntosTotales = 0;
                      JOptionPane.showMessageDialog(null, "No has acertado :( " +  "Haz PERDIDO el juego y  tus puntos totales son: " + puntosTotales);
-                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario); 
+                       archivo.escribirLog("log/Resultados del Juego.txt", puntosTotales, usuario, fechaJuego,"PERDIO"); 
                     break;
                 }
             
