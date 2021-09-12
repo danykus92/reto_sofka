@@ -35,7 +35,7 @@
 * Responder correctamente el nivel 5 te dara como recompensa 500 puntos
 
 
-### ***En total la bolsa de premos sera de 1500 para el campeon. Siendo este el maximo puntaje a obtener por usuario*** ###
+### ***En total la bolsa de premios sera de 1500 para ser el campeon. Siendo este el maximo puntaje a obtener por usuario*** ###
 
 <--------------------------------------------------------------------->
 
