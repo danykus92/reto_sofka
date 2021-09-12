@@ -5,7 +5,7 @@ Instrucciones para el uso adeyado de la aplicacion
 1- no modificar, eliminar o mover de ruta el .TXT  llamadado "niveles" ya que este contiene el banco de preguntas de juego y es indispensable para su funcionamiento
 2- contar como minmo con e JDK 1.8 en la maquina para el correcto funcionamiento.
 3- el juego esta diseñano de tal manera que antes de empezar se debe ejar el registro de un usuario para continuar
-4- se implimenteto un showMessage, para ls eventos Ganar,perder o Retirarse del juego por lo que se debe verificar esta ventana emergente en pantalla con los resultados
+4- se implimento un alert  tipo showMessage, para los eventos del juego: Ganar,perder o Retirarse del juego por lo que se debe verificar esta ventana emergente en pantalla con los resultados y automaticamnent se temina la ejecucion del programa. 
 
 ---------------------------------------------------------------------<>
 
